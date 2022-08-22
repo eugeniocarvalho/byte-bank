@@ -2,9 +2,9 @@
 
 ### Visto no curso
 <ul>
-<li>Dominado paradigma de programação mais usado no mercado</li>
-<li>Entendido o que são referências e objetos</li>
-<li>Usado atributos, métodos da instância e da classe</li>
-<li>Definido objetos através de construtores</li>
-<li>Aprendendido sobre encapsulamento</li>
+<li>Domine o paradigma de programação mais usado no mercado</li>
+<li>Entenda  o que são referências e objetos</li>
+<li>Use atributos, métodos da instância e da classe</li>
+<li>Defina objetos através de construtores</li>
+<li>Aprenda sobre encapsulamento</li>
 </ul>
