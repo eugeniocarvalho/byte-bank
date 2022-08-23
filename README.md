@@ -8,3 +8,5 @@
 <li>Defina objetos através de construtores</li>
 <li>Aprenda sobre encapsulamento</li>
 </ul>
+
+<img src="preview.png" />
