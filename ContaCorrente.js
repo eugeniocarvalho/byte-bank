@@ -1,52 +1,18 @@
-import { Cliente } from "./Cliente.js";
+import { Conta } from "./Conta.js";
 
-export class ContaCorrente {
+export class ContaCorrente extends Conta {
   static numeroDeContas = 0;
 
-  //Propriedades privadas
-  _cliente;
-  _saldo = 0;
-
   constructor(agencia, cliente) {
-    this.agencia = agencia;
-    this.cliente = cliente;
-    this._saldo = 0;
+    super(agencia, cliente, 0);
+
     ContaCorrente.numeroDeContas++;
   }
 
-  set cliente(novoValor) {
-    if (novoValor instanceof Cliente)
-      this._cliente = novoValor;
-  }
-
-  get cliente() {
-    return this._cliente;
-  }
-
-  get saldo() {
-    return this._saldo;
-  }
-
+  //sobrescrevendo o comportamento sacar da classe herdada
   sacar(valor) {
-    if (this._saldo >= valor) {
-      this._saldo -= valor;
-
-      return valor;
-    }
-
-    return 0;
-  }
-
-  depositar(valor) {
-    if (valor <= 0) {
-      return 0;
-    }
-
-    this._saldo += valor;
-  }
-
-  transferir (valor, conta) {
-    const valorSacado = this.sacar(valor);
-    conta.depositar(valorSacado);
+    let taxa = 1.1;
+    
+    return this._sacar(valor, taxa);
   }
 }
