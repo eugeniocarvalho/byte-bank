@@ -10,7 +10,7 @@
 </ul>
 
 <br><br>
-
+<p>Preview curso de JavaScript: programando a Orientação a Objetos</p>
 <img src="preview.png" />
 
 <br> <br>
@@ -24,3 +24,9 @@
 <li>Conheça boas práticas de programação</li>
 <li>Veja código JavaScript moderno que você pode utilizar em seus projetos</li>
 </ul>
+
+<br><br>
+<p>Preview curso de JavaScript: interfaces e Herança em Orientação a Objetos</p>
+<img src="preview2.png" />
+
+<br> <br>
